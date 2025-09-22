@@ -29,17 +29,34 @@
     p {
       font-size: 1.2rem;
       color: #555;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
+    }
+    a {
+      color: #145DA0;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #145DA0;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #0f3e6e;
     }
     footer {
       position: absolute;
       bottom: 20px;
       font-size: 0.9rem;
       color: #888;
-    }
-    .highlight {
-      color: #145DA0;
-      font-weight: bold;
     }
   </style>
 </head>
@@ -48,9 +65,13 @@
     <img src="main.png" alt="Frangus Tech Logo" />
     <h1>Sitio en desarrollo</h1>
     <p>
-      Este sitio está siendo creado por <span class="highlight">Frangus Tech</span>.<br />
-      ¡Vuelve pronto para descubrirlo!
+      Este sitio está siendo creado por 
+      <a href="https://frangus.dev" target="_blank" rel="noopener noreferrer">Frangus Tech</a>.
+      <br />¡Vuelve pronto para descubrirlo!
     </p>
+    <a href="https://frangus.dev" target="_blank" rel="noopener noreferrer" class="btn">
+      Visita frangus.dev
+    </a>
   </div>
   <footer>© 2025 Frangus Software Solutions</footer>
 </body>
